@@ -1,7 +1,16 @@
-# Here, we assign a function to a variable
-uppercase = str.upper
+print(list(map(lambda a: a * 2, [1, 2, 3])))
 
-# And then call it
-big_pie = uppercase("pumpkinpie")
 
-print(big_pie)
+def decorator(function):
+    def wrap():
+        print('Hello')
+        function()
+    return wrap
+
+
+@decorator
+def first():
+    print("Komma")
+
+
+first()
