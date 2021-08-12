@@ -3,8 +3,7 @@
 # Y == 1 /
 # print(The Y Value is +y)
 
-
-# a) Indetify some errors within his code:
+# a) Identify some errors within his code:
 # at Line 1:
 # A. we want z to be a float number not a string so input() is incomplete we need float(input())
 # B. if we want to prompt a message we have to put ("...") " -> are missing
@@ -17,7 +16,7 @@
 # C. the output must be trimmed to 4 decimals and for that we use round()
 
 # at Line 3:
-# A. Misiing ("..")
+# A. Missing ("..")
 # B. Missing f <- format
 
 def get_number():
